@@ -7,6 +7,10 @@
     <name>example.com</name>
     <key>example</key>
 
+    <security permission-check="true">
+        <system>Website</system>
+    </security>
+
     <localizations>
         <!-- See: http://docs.sulu.io/en/latest/book/localization.html how to add new localizations -->
         <localization language="en" default="true"/>
